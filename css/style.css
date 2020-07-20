@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(12px);
+    overflow: hidden;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    width: 400px;
+    height: 100px;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-family: Anton;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 32%;
+    border-radius: 50px;
+    border: none;
+    transition: .6s;
+}
+.btn:hover{
+    background-color: violet;
+    color:black;
+}
+
+.text-1{
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-family: Anton;
+    font-size: 50px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+    margin-top: 140px;
+    margin-left: 80px;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
