@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #7653f3;
+}
+.home{
+  margin-top: 100px;
+}
+.text{
+    font-family: Anton;
+}
+ a{
+    color: black;
+}
+.card{
+    border-radius: 50px;
+    transition: .9s;
+    border-radius: 50px;
+    background: #7653f3;
+    box-shadow:20px 20px 60px #6447cf, 
+                -20px -20px 60px #885fff;
+}
+.card img{
+    border-radius: 51px;  
+}
+.card:hover{
+    background-color: white;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+.header{
+    font-family: Anton;
+    color: #ffffff;
+}
