@@ -34,18 +34,18 @@ body{
 }
 
 .text-1{
+    color: #ffffff;
     display: inline-block;
-  	overflow: hidden;
-  	letter-spacing: 2px;
- 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    letter-spacing: 2px;
+    text-align: center;
     white-space: nowrap;
     font-family: Anton;
     font-size: 50px;
     font-weight: 700;
-    border-right: 4px solid orange;
+    border-right: 4px solid blueviolet;
     box-sizing: border-box;
     margin-top: 140px;
-    margin-left: 80px;
+    animation: typing 5s steps(31, end), blink .75s step-end infinite
 }
 
 @keyframes typing {
@@ -62,6 +62,6 @@ body{
         border-color: transparent 
     }
     50% { 
-        border-color: orange; 
+        border-color: blueviolet; 
     }
 }
