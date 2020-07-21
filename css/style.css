@@ -10,6 +10,9 @@ body{
     backdrop-filter: blur(12px);
     overflow: hidden;
 }
+.container{
+    height: 100vh;
+}
 .container a{
     text-decoration: none;
     color: white;
@@ -23,7 +26,6 @@ body{
     font-family: Anton;
     font-size: 50px;
     margin-top: 100px;
-    margin-left: 32%;
     border-radius: 50px;
     border: none;
     transition: .6s;
@@ -45,7 +47,7 @@ body{
     border-right: 4px solid blueviolet;
     box-sizing: border-box;
     margin-top: 140px;
-    animation: typing 5s steps(31, end), blink .75s step-end infinite
+    animation: typing 5s steps(31, end), blink .75s step-end infinite;
 }
 
 @keyframes typing {
@@ -59,7 +61,7 @@ body{
 
 @keyframes blink {
     from, to { 
-        border-color: transparent 
+        border-color: transparent; 
     }
     50% { 
         border-color: blueviolet; 
