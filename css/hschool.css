@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #5653f3;
+}
+.card{
+    margin-top: 100px;
+    border-radius: 30px;
+    background: #5653f3;
+    color: #ffffff;
+    transition: .9s;
+    box-shadow:20px 20px 60px #5653f3, 
+              -20px -20px 60px #5653f3;
+    
+}
+.card:hover{
+    border-radius: 29px;
+    background: #538bf3;
+    cursor: pointer;
+    border-radius: 29px;
+    background: #5653f3;
+    border-radius: 29px;
+    background: linear-gradient(145deg, #4d4bdb, #5c59ff);
+    box-shadow:  32px 32px 64px #3c3aaa, 
+                 -32px -32px 64px #706cff;
+    
+}
+.btn{
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    border: none;
+}
+.btn:hover{
+    background-color:#5653f3;
+    border: 1px solid white;
+}
+.btn:focus{
+    outline: none;
+    color: white;
+    background-color: #5653f3;
+}
+i{
+    color: black;
+    opacity: 0;
+    transition: .6s;
+}
+.card:hover i{
+    opacity: 1;
+    margin-left: 10px;
+}
+.card-title{
+    transition: .8s;
+}
+.card:hover .card-title{
+    margin-left: 18px;
+}
